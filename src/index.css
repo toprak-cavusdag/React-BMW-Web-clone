@@ -11,6 +11,10 @@ body {
   background-color: white !important;
 }
 
+.bg-black {
+  background-color: black !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

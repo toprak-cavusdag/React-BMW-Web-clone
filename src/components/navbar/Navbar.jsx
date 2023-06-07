@@ -43,7 +43,7 @@ const Navbar = () => {
               >
                 {menu.name}
 
-                <div className='w-full  absolute h-1 group-hover:bg-bmwBlue group-hover:translate-y-9'></div>
+                <div className='w-full absolute h-1 group-hover:bg-bmwBlue group-hover:translate-y-9'></div>
               </li>
             );
           })}
@@ -55,12 +55,12 @@ const Navbar = () => {
         <ul className='space-x-8 flex justify-center items-center'>
           <li className='text-white font-semibold group relative cursor-pointer'>
             <LocationOnIcon />
-            <div className='w-full  absolute h-1 group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
+            <div className='w-full  absolute h-[3px] group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
           </li>
 
           <li className='text-white font-semibold group relative cursor-pointer'>
             <SearchIcon />
-            <div className='w-full  absolute h-1 group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
+            <div className='w-full  absolute h-[3px] group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
           </li>
         </ul>
       </div>
