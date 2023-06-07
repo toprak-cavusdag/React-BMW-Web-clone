@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../asset/BMW_White_Logo.png';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Navbar = () => {
   const NavbarMenus = [
@@ -29,20 +31,38 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className='py-5 px-2 container mx-auto flex justify-between  absolute z-50 top-0'>
-      <div className='w-full absolute h-1 bg-gra'>
-        <div className='flex space-x-8'>
-          <img src={logo} alt='Hero Image' className='h-16' />
-          <ul className='flex space-x-8 items-center'>
-            {NavbarMenus.map((menu) => {
-              return (
-                <li key={menu.id} className='text-white font-semibold'>
-                  {menu.name}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+    <nav className='py-5 px-2 container mx-auto flex justify-between  items-center absolute z-50 top-0'>
+      <div className='flex space-x-8'>
+        <img src={logo} alt='Hero Image' className='h-16' />
+        <ul className='flex space-x-8 items-center'>
+          {NavbarMenus.map((menu) => {
+            return (
+              <li
+                key={menu.id}
+                className='text-white font-semibold group relative cursor-pointer'
+              >
+                {menu.name}
+
+                <div className='w-full  absolute h-1 group-hover:bg-bmwBlue group-hover:translate-y-9'></div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <div className='w-full absolute h-[1px] bg-white bottom-0'></div>
+
+      <div className='flex'>
+        <ul className='space-x-8 flex justify-center items-center'>
+          <li className='text-white font-semibold group relative cursor-pointer'>
+            <LocationOnIcon />
+            <div className='w-full  absolute h-1 group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
+          </li>
+
+          <li className='text-white font-semibold group relative cursor-pointer'>
+            <SearchIcon />
+            <div className='w-full  absolute h-1 group-hover:bg-bmwBlue  group-hover:translate-y-9'></div>
+          </li>
+        </ul>
       </div>
     </nav>
   );

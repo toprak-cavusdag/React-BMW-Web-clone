@@ -7,6 +7,10 @@ body {
   color: white !important;
 }
 
+.bg-white {
+  background-color: white !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

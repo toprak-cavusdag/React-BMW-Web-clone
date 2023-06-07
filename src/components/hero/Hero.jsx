@@ -5,7 +5,7 @@ import './Hero.css';
 import BlueButton from '../buttons/BlueButton';
 const Hero = () => {
   return (
-    <div className=' flex justify-center text-white  w-full hero-image'>
+    <div className=' flex justify-center text-white screen w-full hero-image'>
       <img src={hero} alt='hero image' className='object-cover' />
       <div className='Hero-center w-full container mx-auto'>
         <h6 className='font-semibold text-lg uppercase tracking-widest my-3'>
