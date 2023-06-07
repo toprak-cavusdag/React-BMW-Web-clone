@@ -4,6 +4,7 @@ import Reservation from '../../components/reservation/Reservation';
 import ImageSection from '../../components/imageSection/ImageSection';
 import carBackgrounds from '../../asset/yuzde-yuz-elektrikli-surus-keyfi--main-banner-2560x852-1_3to1.webp';
 import joyBlog from '../../asset/JoyBlog.webp';
+import MobileApp from '../../components/mobileApp/MobileApp';
 
 const Home = () => {
   return (
@@ -23,6 +24,8 @@ const Home = () => {
         desc=' BMW dünyasından en son gelişmeler, ilham veren yazılar ve çok daha fazlası. '
         btn='Keşfedin'
       />
+
+      <MobileApp />
     </div>
   );
 };
