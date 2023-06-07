@@ -8,7 +8,6 @@ const Reservation = () => {
   return (
     <div className='py-10 px-5 flex justify-center flex-col items-center container mx-auto'>
       <h6 className='uppercase tracking-widest'>SONRAKİ ADIMLAR</h6>
-
       <h1 className='tracking-wider font-light my-3 text-5xl'>
         BMW’NİZİ REZERVE EDİN.
       </h1>

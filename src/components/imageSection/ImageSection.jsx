@@ -13,7 +13,7 @@ const ImageSection = ({ image, title, desc, btn }) => {
       <div className='absolute w-full h-full image-shadow'></div>
       <div className=' w-full center flex justify-center flex-col text-white container mx-auto'>
         <h6 className='tracking-wider uppercase text-sm font-light'>{title}</h6>
-        <h1 className='tracking-wide text-7xl uppercase font-light my-6 max-w-4xl'>
+        <h1 className='tracking-wide text-6xl uppercase font-light my-6 max-w-4xl'>
           {desc}
         </h1>
 
