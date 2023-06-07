@@ -31,9 +31,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className='py-5 px-2 container mx-auto flex justify-between  items-center absolute z-50 top-0'>
+    <nav className='py-4 px-2 container mx-auto flex justify-between  items-center absolute z-50 top-0'>
       <div className='flex space-x-8'>
-        <img src={logo} alt='Hero Image' className='h-16' />
+        <img src={logo} alt='Hero Image' className='h-14' />
         <ul className='flex space-x-8 items-center'>
           {NavbarMenus.map((menu) => {
             return (
