@@ -11,7 +11,7 @@ const ImageSection = ({ image, title, desc, btn }) => {
         className='w-full h-full object-cover'
       />
       <div className='absolute w-full h-full image-shadow'></div>
-      <div className=' w-full  center flex justify-center flex-col text-white container mx-auto'>
+      <div className=' w-full center flex justify-center flex-col text-white container mx-auto'>
         <h6 className='tracking-wider uppercase text-sm font-light'>{title}</h6>
         <h1 className='tracking-wides text-6xl  font-light my-6 max-w-2xl  letter leading-[75px]'>
           {desc}
